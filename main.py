@@ -14,6 +14,10 @@ async def on_message(message):
   if message.content.startswith('>IT'):
     n= random.randint(3, 15)
     await message.channel.send('C'*n+'!:fire:')
+  elif   message.content.startswith('>L3LAM')
+      await message.channel.send('ITC The Best !:fire:')
+  
+
     
 
 keep_alive()
